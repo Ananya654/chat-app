@@ -18,7 +18,7 @@ body {
 
 #messages {
     background-color: #F2E2B1;
-    color: #443627;;
+    color: #443627;
     height: 300px;
     overflow-y: auto;
     border-bottom: 1px solid #4F959D;
@@ -41,7 +41,7 @@ body {
 button {
     margin: 10px;
     padding: 10px 20px;
-    cursor:wait;
+    cursor:pointer;
     border-radius: 10px ;
     background-color: #BDB395;
     color: #000000;
