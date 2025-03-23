@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat On</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2>Talk 2 Me</h2>
+
+    <label for="username">Username: </label>
+    <input id="username" placeholder="Enter your name" />
+
+  
+    <div id="chat-container">
+        <div id="messages"></div>
+        <p id="typingIndicator"></p>
+        <input id="messageInput" placeholder="Typing..." oninput="sendTyping()" />
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="leaveChat()">Leave</button> 
+    </div>
+
+
+    <footer>
+        <p>&copy; Ananya.P </p>
+        <p></footer>
+
+
+
+
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
